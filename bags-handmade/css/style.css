@@ -338,15 +338,16 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ffb607;
+    background-color: #000000;
     text-align: center;
     padding: 10px 0px;
     border-radius: 5px;
     text-transform: uppercase;
 }
 .contact_bt a:hover{
-    color: #ffffff;
-    background-color: #000;
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000;
 }
 
 .fa-angle-right:before {
@@ -379,7 +380,7 @@ button {
     border-radius: 100px;
 }
 #costum_slider .carousel-control-prev:hover, #costum_slider .carousel-control-next:hover, #costum_slider .carousel-control-prev:focus, #costum_slider .carousel-control-next:focus {
-    background: #f8ca12;
+    background: #666666;
     color: #fff;
 }
 
@@ -443,20 +444,23 @@ button {
     float: left;
     font-size: 18px;
     color: #ffffff;
-    background-color: #ffb607;
+    background-color: #000000;
     text-align: center;
     padding: 10px 0px;
     border-radius: 5px;
     text-transform: uppercase;
 }
 .read_bt a:hover{
-    color: #ffffff;
-    background-color: #000;
+    /* color: #ffffff;
+    background-color: #000; */
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000;
 }
 .about_section{
     width: 100%;
     float: left;
-    background-color: #ffb607;
+    background-color: #eeeeee;
     height: auto;
     padding-bottom: 90px;
 }
@@ -469,7 +473,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 500;
 }
@@ -477,7 +481,7 @@ button {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     margin-left: 0px;
     padding-top: 40px;
 }
@@ -498,8 +502,11 @@ button {
     text-transform: uppercase;
 }
 .read_bt1 a:hover{
-    color: #000;
-    background-color: #ffffff;
+    /* color: #000;
+    background-color: #ffffff; */
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000;
 }
 .furnitures_section {
     width: 100%;
@@ -554,9 +561,9 @@ a:hover {
     width: 42%;
     opacity: 0;
     transition: .3s ease;
-    background-color: #fabc26;
+    background-color: #929292;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 50%;
     top: 55px;
 }
 
@@ -582,7 +589,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #fabb25;
+    color: #000000;
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 35px;
@@ -598,7 +605,8 @@ a:hover {
 .who_section{
     width: 100%;
     float: left;
-    background-image: url(../images/bg-1.png);
+    /* background-image: url(../images/bg-1.png); */
+    background-color: #eeeeee;
     height: auto;
     padding-bottom: 55px;
     background-size: 100%;
@@ -607,7 +615,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 36px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -616,7 +624,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     text-transform: uppercase;
 }
@@ -624,7 +632,7 @@ a:hover {
     width: 100%;
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     margin-left: 0px;
 }
@@ -713,7 +721,8 @@ a:hover {
     top: 0;
     width: 92%;
     height: 90%;
-    background-color: rgb(255,182,7,.6);
+    /* background-color: rgb(255,182,7,.6); */
+    background-color: rgba(226, 226, 226, 0.6);
     z-index: 11;
     display: none;
 }
@@ -753,8 +762,11 @@ a:hover {
     color: #fff;
 }
 #main_slider .carousel-control-prev:hover, #main_slider .carousel-control-next:hover, #main_slider .carousel-control-prev:focus, #main_slider .carousel-control-next:focus {
-    background: #f8ca12;
-    color: #fff;
+    /* background: #f8ca12;
+    color: #fff; */
+    color: #000000;
+    background-color: transparent;
+    border: 2px solid #000000;
 }
 .clients_section {
     width: 100%;
@@ -818,8 +830,10 @@ a:hover {
 .carousel-indicators li {
     width: 20px;
     height: 20px;
-    background-color: #ffb607;
+    /* background-color: #ffb607; */
+    background-color: transparent;
     border-radius: 20px;
+    border: 2px solid #000000;
 }
 .carousel-indicators .active {
     background-color: #111111;
@@ -833,7 +847,8 @@ a:hover {
 .contact_section {
     width: 100%;
     float: left;
-    background-image: url(../images/contact-bg.png);
+    /* background-image: url(../images/contact-bg.png); */
+    background-color: #000000;
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -885,14 +900,14 @@ textarea#comment::placeholder {
     width: 30%;
     float: left;
     font-size: 20px;
-    color: #989696;
+    color: #ffffff;
     text-align: center;
     border: 2px solid #ffffff;
     padding: 10px 0px;
     font-weight: bold;
 }
 .send_bt a:hover{
-    color: #989696;
+    color: #000000;
     background-color: #ffffff;
 }
 .image_9 {
