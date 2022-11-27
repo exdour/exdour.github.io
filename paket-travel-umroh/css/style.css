@@ -51,8 +51,8 @@
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    padding: 30px 15px;
-    font-size: 16px;
+    padding: 24px 14px;
+    font-size: 12px;
     font-weight: 600;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -291,4 +291,59 @@
     .bg-footer {
         margin-top: 90px !important;
     }
+}
+
+.txt-primary {
+    font-size: 28px;
+    color: #C6A15B;
+    font-weight: bold;
+    text-align: center;
+}
+
+.txt-second {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.w-img-land-bc {
+    width: 100% !important;
+    height: 660px;
+}
+
+.align-items-center-custom {
+    align-items: center !important;
+    margin-bottom: 80px;
+}
+
+.btn-claim-promo {
+    padding: 12px;
+    background: linear-gradient(227.46deg, #DCAC4F -23.93%, #FFE866 42.54%, #DCAC4F 107.17%);
+    font-size: 10px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.center-component {
+    margin-top: 20px;
+}
+
+.container-fluid-custom {
+    background-image: url("../img/page2.png");
+    background-size: 100%;
+}
+
+.page3 {
+    background-image: url("../img/bg4.png");
+    background-size: 100%;
+    height: 1000px;
+    
+    background-repeat: no-repeat;
+}
+
+.page4 {
+    background-image: url("../img/just-bg4.png");
+    background-size: 100%;
 }
