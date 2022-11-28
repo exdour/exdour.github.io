@@ -214,7 +214,7 @@
 }
 
 .product-item {
-    padding: 0 30px 30px 30px;
+    padding: 0 64px 30px 64px;
     background-color: #000;
 }
 
@@ -382,15 +382,18 @@
 }
 
 .btn-claim-promo {
-    padding: 12px;
+    padding: 16px;
     background: linear-gradient(227.46deg, #DCAC4F -23.93%, #FFE866 42.54%, #DCAC4F 107.17%);
-    font-size: 10px;
+    font-size: 14px;
     color: #000;
     font-weight: bold;
     border-radius: 20px;
 }
 
-/* .btn-claim-promo::hover */
+.btn-claim-promo:hover {
+    color: #000000;
+    background: #DCAC4F;
+}
 
 .container-fluid-custom {
     background-image: url("../img/page2.png");
