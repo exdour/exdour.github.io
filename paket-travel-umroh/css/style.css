@@ -146,12 +146,76 @@
     transition: .5s;
 }
 
-.service-item:hover h4 {
-    color: var(--light);
+.service-item-custom-1 {
+    /* background-color: #000000; */
+    background: url(../img/paket/paket-Biasa.jpeg);
+    background-size: cover;
+    border: 3px solid #DCAC4F;
+    border-radius: 12px;
+    height: 350px;
+    width: 100%;
+}
+
+.service-item-custom-2 {
+    /* background-color: #000000; */
+    background: url(../img/paket/paket-Silver.jpeg);
+    background-size: cover;
+    border: 3px solid #DCAC4F;
+    border-radius: 12px;
+    height: 350px;
+    width: 100%;
+}
+
+.service-item-custom-3 {
+    /* background-color: #000000; */
+    background: url(../img/paket/paket-Platinum.jpeg);
+    background-size: cover;
+    border: 3px solid #DCAC4F;
+    border-radius: 12px;
+    height: 350px;
+    width: 100%;
+}
+
+.service-item-custom h4, .service-item-custom h6 {
+    color: #ffffff;
+}
+
+.service-item-custom p {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: left;
+}
+
+.service-item-custom:hover {
+    color: #000;
+    /* background: #FDC70C !important; */
+    background: transparent !important;
+    opacity: 0.5;
+}
+
+.service-item-custom:hover h4, .service-item-custom:hover p, .service-item-custom:hover h6 {
+    transition: .5s;
+}
+
+.service-item-custom:hover h4, .service-item-custom:hover p, .service-item-custom:hover h6 {
+    color: #000;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.one-row {
+    display: flex;
 }
 
 .product-item {
     padding: 0 30px 30px 30px;
+    background-color: #000;
 }
 
 .product-item .btn-action {
@@ -183,9 +247,9 @@
     height: 55%;
     bottom: 0;
     left: 0;
-    background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
+    /* background: url(../img/bg-product-1.png) left bottom no-repeat, url(../img/bg-product-2.png) right bottom no-repeat;
     background-size: contain;
-    background-color: var(--primary);
+    background-color: var(--primary); */
     z-index: -1;
 }
 
@@ -326,9 +390,7 @@
     border-radius: 20px;
 }
 
-.center-component {
-    margin-top: 20px;
-}
+/* .btn-claim-promo::hover */
 
 .container-fluid-custom {
     background-image: url("../img/page2.png");
@@ -346,4 +408,21 @@
 .page4 {
     background-image: url("../img/just-bg4.png");
     background-size: 100%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.container-fluid-paket-custom {
+    background-image: url("../img/bg3.png");
+    background-size: 100%;
+}
+
+.txt-paket {
+    font-size: 28px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
 }
