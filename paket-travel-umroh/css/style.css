@@ -419,8 +419,9 @@ video {
 }
 
 .container-fluid-paket-custom {
-    background-image: url("../img/bg3.png");
-    background-size: 100%;
+    /* background-image: url("../img/bg3.png");
+    background-size: 100%; */
+    background-color: #fff;
 }
 
 .txt-paket {
