@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Etewut Serif';
+    src: local('Etewut Serif Bold'), local('Etewut-Serif-Bold'),
+        url('EtewutSerif-Bold.woff2') format('woff2'),
+        url('EtewutSerif-Bold.woff') format('woff'),
+        url('EtewutSerif-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
