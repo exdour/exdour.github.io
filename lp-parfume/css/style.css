@@ -519,18 +519,18 @@ ul.social_icon li a:hover {
 }
 
 .page-gallery {
-     background: url(../images/folder/bg-gallery.png);
+     /* background: url(../images/folder/bg-gallery.png);
      background-repeat: no-repeat;
      background-size: cover;
-     padding-bottom: 20px;
+     padding-bottom: 20px; */
 }
 
 .page-best-seller {
-     background: url(../images/folder/bg-best-seller.png);
+     /* background: url(../images/folder/bg-best-seller.png);
      background-repeat: no-repeat;
-     background-size: center;
+     background-size: contain;
      padding-top: 90px;
-     padding-bottom: 100px;
+     padding-bottom: 90px; */
 }
 
 .we_box {
@@ -805,7 +805,7 @@ ul.social_icon li a:hover {
      position: relative;
 }
 
-.contact::before {
+/* .contact::before {
      position: absolute;
      content: "";
      right: 0;
@@ -814,7 +814,7 @@ ul.social_icon li a:hover {
      width: 156px;
      height: 283px;
      top: 14%;
-}
+} */
 
 .main_form .contactus {
      border: #fff solid 1px;
