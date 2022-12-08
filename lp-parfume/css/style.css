@@ -41,10 +41,17 @@ html {
      scroll-behavior: smooth;
 }
 
+/* @font-face {
+	font-family: 'Visby Round CF';
+	src: url("../fonts/VisbyRoundCF-Regular.woff");
+} */
+
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Poppins', sans-serif;
+     /* font-family: 'Poppins', sans-serif; */
+     font-family: 'Cinzel';
+	src: url("../fonts/cinzel/CinzelDecorative-Regular.ttf");
      line-height: 1.80857;
      font-weight: normal;
 }
