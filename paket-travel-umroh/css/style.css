@@ -148,31 +148,43 @@
 
 .service-item-custom-1 {
     /* background-color: #000000; */
-    background: url(../img/paket/paket-Biasa.jpeg);
+    /* background: url(../img/paket/paket-Biasa.jpeg);
     background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;   */
     border: 3px solid #DCAC4F;
     border-radius: 12px;
-    height: 350px;
+    height: 100%;
     width: 100%;
 }
 
 .service-item-custom-2 {
     /* background-color: #000000; */
-    background: url(../img/paket/paket-Silver.jpeg);
-    background-size: cover;
+    /* background: url(../img/paket/paket-Silver.jpeg);
+    background-size: cover; */
     border: 3px solid #DCAC4F;
     border-radius: 12px;
-    height: 350px;
+    height: 100%;
     width: 100%;
 }
 
 .service-item-custom-3 {
     /* background-color: #000000; */
-    background: url(../img/paket/paket-Platinum.jpeg);
-    background-size: cover;
+    /* background: url(../img/paket/paket-Platinum.jpeg);
+    background-size: cover; */
     border: 3px solid #DCAC4F;
     border-radius: 12px;
-    height: 350px;
+    height: 100%;
+    width: 100%;
+}
+
+.service-item-custom {
+    /* background-color: #000000; */
+    /* background: url(../img/paket/paket-Platinum.jpeg);
+    background-size: cover; */
+    border: 3px solid #DCAC4F;
+    border-radius: 12px;
+    height: 100%;
     width: 100%;
 }
 
