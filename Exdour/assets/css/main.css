@@ -835,6 +835,25 @@ section {
   font-size: 14px;
 }
 
+.btn-get-now-stats-content {
+  border: 1px solid var(--color-primary);
+  border-radius: 16px;
+  padding: 10px;
+  transition: 0.5s;
+  float: left;
+  text-align: center;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  width: 120px;
+}
+
+.btn-get-now-stats-content:hover {
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 16px;
+  padding: 10px;
+}
+
 /*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
