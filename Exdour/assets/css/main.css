@@ -836,21 +836,22 @@ section {
 }
 
 .btn-get-now-stats-content {
-  border: 1px solid var(--color-primary);
-  border-radius: 16px;
+  border: 1px solid rgba(0, 131, 116, 0.2);
+  border-radius: 50px;
   padding: 10px;
   transition: 0.5s;
   float: left;
   text-align: center;
   font-family: var(--font-primary);
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 16px;
   width: 120px;
 }
 
 .btn-get-now-stats-content:hover {
   background-color: var(--color-primary);
   color: white;
-  border-radius: 16px;
+  border-radius: 50px;
   padding: 10px;
 }
 
