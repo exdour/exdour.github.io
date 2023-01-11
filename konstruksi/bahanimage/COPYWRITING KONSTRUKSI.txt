@@ -1,0 +1,90 @@
+Copywriting Konstruksi
+
+
+> Bagian Headline = ( headline slide )
+
+Builtycon Struktur Engineering = halaman 1
+
+Wujudkan Impian Rumah Anda  = halaman 2
+
+kami membangun proyek Impian Anda = halaman 3
+
+
+> Subheadline = ( sub di bawah headline sebelum button CTA )
+
+Konsultan Perencana Struktur Terpecaya = slide Halaman 1
+
+Dibuat dengan para ahli = slide halaman 2
+
+Pengerjaan Profesional = slide halaman 3
+
+
+> Bagian E-cover = 
+
+1 Berpengalman =
+
+
+2 pekerjaan yang berkualitas =
+
+
+3 24 jam =
+
+
+> Tentang =
+
+Jasa Hitung Struktur ( Judul )
+
+( paragraf ) 
+Kami adalah konsultan perencana struktur yang melayani jasa hitung
+struktur bangunan. Proyek-proyek yang telah kami kerjakan diantaranya
+adalah proyek-proyek bangunan struktur rumah, ruko, apartemen, bangunan industri
+, gedung serbaguna, gedung baja dan lainnya.
+Dan adapaun keuntungan menggunakan jasa kami adalah, pekerjaan struktur anda 
+lebih hemat, bangunan anda aman secara struktural, kokoh, kuat, dan ekonomis.
+Engineer berpengalaman di bidang jasa hitung struktur. Engineer bersertifikat ahli
+struktur SKA HAKI Anda bisa lebih fokus pada perkerjaan utama anda.
+
+> Service =
+
+1. ( jumlah ) Pekerja Ahli
+2. ( jumlah ) Rating Klien
+3. ( jumlah ) Proyek Selesai
+4. ( jumlah ) Projectkan
+
+> Penawaran Builtco =
+
+Kami Menyediakan Layanan ( Judul )
+
+( Paragraf )
+1. Jasa hitung struktur bangunan/perencanaan struktur⁣
+2. Jasa review desain struktur bangunan⁣
+3. Jasa audit struktur bangunan ⁣
+4. Detail engineering design (DED) struktur⁣
+ 
+( disesuaiken di dalam carouselnya kaya tamplate sebelumnya )
+
+
+< Team =
+
+Nama & Jabatannya
+
+> FAQ =
+
+1. Apa keuntungan menggunakan jasa Konstruksi Builtycon?
+2. Apa saja yang akan saya dapatkan dengan menggunakan jasa konstruksi Builtcon?
+3. Berapa lama waktu yang dibutuhkan untuk pengerjaan?
+4. Bagaimana dengan perijinan untuk pembangunan dan perdamaian?
+5. Apakah dalam setiap proyek ada biaya-biaya tambahan diluar dari biaya awal?
+6. Bagaimana sistem pembayaran dengan Pilar Konstruksi?
+7. Apa saja persyaratannya?
+8. Apakah hasil kerja terjamin dan bergaransi?
+9. Apakah jasa sudah termasuk pengurusan PBG (Persetujuan Bangunan Gedung)?
+10. Bagaimana cara perhitungan nilai proyek?
+
+< Testimoni =
+
+( Hasil proyek Builtyco )
+
+> Blog
+ 
+
