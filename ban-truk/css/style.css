@@ -406,7 +406,7 @@ button {
 
 
 #main_slider a.carousel-control-prev {
-    left: 88%;
+    left: 90%;
     top: 60%;
     background-color: #2B5DA6;
     color: #ffffff;
@@ -414,7 +414,7 @@ button {
 
 #main_slider a.carousel-control-next {
     position: absolute;
-    right: 20px;
+    right: 32px;
     top: 60%;
 }
 
