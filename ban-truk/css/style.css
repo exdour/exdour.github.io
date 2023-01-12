@@ -407,7 +407,7 @@ button {
 #main_slider a.carousel-control-prev {
     left: 88%;
     top: 60%;
-    background-color: #f7c17b;
+    background-color: #2B5DA6;
     color: #ffffff;
 }
 
@@ -421,7 +421,7 @@ button {
 #main_slider .carousel-control-next {
     width: 68px;
     height: 68px;
-    background: #325662;
+    background: #11356B;
     opacity: 1;
     font-size: 30px;
     color: #ffffff;
@@ -431,8 +431,9 @@ button {
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-next:focus {
-    background-color: #f7c17b;
-    color: #ffffff;
+    background-color: #fff;
+    color: #11356B;
+    border: 2px solid #11356B;
 }
 /* banner section end */
 
