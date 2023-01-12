@@ -209,7 +209,8 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: linear-gradient(-13deg, #ffffff 30%, #274d5a 20%);
+    /* background-image: linear-gradient(-13deg, #ffffff 30%, #274d5a 20%); */
+    background: linear-gradient(-13deg, #fff 30%, #0B2C5D 20%);
     position: relative;
     overflow-x: hidden; 
 }
