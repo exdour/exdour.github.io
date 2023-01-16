@@ -26,6 +26,8 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --blue-custom-primary: #11356B;
+  --blue-custom-secondary: #2B5DA6;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
