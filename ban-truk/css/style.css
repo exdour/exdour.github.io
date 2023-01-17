@@ -377,6 +377,19 @@ button {
     padding-top: 40px;
 }
 
+.zoom-img {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .5s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+  }
+  
+  .zoom-img:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
 .banner_text {
     width: 100%;
     float: left;
@@ -537,8 +550,19 @@ button {
     font-size: 16px;
     color: #1c1c1c;
     margin: 0px; 
-    padding-top: 40px;   
+    padding-top: 20px;   
 }
+
+.column_custom {
+    float: left;
+    width: 33.33%;
+}
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
 
 .btn_main{
     width: 100%;
@@ -674,6 +698,11 @@ button {
 
 } .image_5{ width: 40%; margin: 0 auto; text-align: center; padding-top:
 100px; position: relative; z-index: 1; } 
+
+.text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 .about_main::before {
 
