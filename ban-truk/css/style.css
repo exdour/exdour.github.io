@@ -205,6 +205,11 @@ button {
 .padding_0 {
     padding: 0px;
 }
+.three-img-section {
+    width: 100%;
+    float: left;
+    position: relative;
+}
 /* header section start */
 .header_section {
     width: 100%;
@@ -380,7 +385,7 @@ button {
 .zoom-img {
     /* padding: 50px; */
     /* background-color: green; */
-    transition: transform .5s; /* Animation */
+    transition: transform .5s; /* Animation */ 
     /* width: 200px;
     height: 200px; */
     margin: 0 auto;
@@ -507,6 +512,20 @@ button {
     float: left;
     text-align: center;
     /* padding-left: 100px; */
+}
+.image_02 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    /* padding-left: 100px; */
+    margin-top: 80px;
+}
+.image_03 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    /* padding-left: 100px; */
+    padding-right: 12px;
 }
 .box_main:after{
     content: '';
