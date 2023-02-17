@@ -353,6 +353,7 @@ ul.social_icon li a:hover {
      width: 370px;
      height: 764px;
      left: 0;
+     margin-top: 8px;
 }
 
 .banner1 {
@@ -481,6 +482,12 @@ ul.social_icon li a:hover {
      display: flex;
      align-items: center;
      flex-wrap: wrap;
+}
+
+.custom_background_slider {
+     background: linear-gradient(rgba(255, 255, 255, 0.818), rgba(255, 255, 255, 0.805)), url(../images/background-slider.png) no-repeat;
+     background-size: contain;
+     background-position: 40%;
 }
 
 .read_more {
