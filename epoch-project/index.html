@@ -19,7 +19,7 @@
       <!-- Responsive-->
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <link rel="icon" href="icon/ic_epoch.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
@@ -28,6 +28,101 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+      
+      <style>
+         #myImg, #myImg2, #myImg3, #myImg4, #myImg5,
+         #myImg6, #myImg7, #myImg8, #myImg9, #myImg10,
+         #myImg11, #myImg12 {
+           border-radius: 5px;
+           cursor: pointer;
+           transition: 0.3s;
+         }
+         
+         #myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover,
+         #myImg6:hover, #myImg7:hover, #myImg8:hover, #myImg9:hover, #myImg10:hover,
+         #myImg11:hover, #myImg12:hover {opacity: 0.7;}
+         
+         /* The Modal (background) */
+         .modal {
+           display: none; /* Hidden by default */
+           position: fixed; /* Stay in place */
+           z-index: 1; /* Sit on top */
+           padding-top: 100px; /* Location of the box */
+           left: 0;
+           top: 0;
+           width: 100%; /* Full width */
+           height: 100%; /* Full height */
+           overflow: auto; /* Enable scroll if needed */
+           background-color: rgb(0,0,0); /* Fallback color */
+           background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+         }
+         
+         /* Modal Content (image) */
+         .modal-content {
+           margin: auto;
+           display: block;
+           width: 80%;
+           max-width: 700px;
+         }
+         
+         /* Caption of Modal Image */
+         #caption {
+           margin: auto;
+           display: block;
+           width: 80%;
+           max-width: 700px;
+           text-align: center;
+           color: #ccc;
+           padding: 10px 0;
+           height: 150px;
+         }
+         
+         /* Add Animation */
+         .modal-content, #caption {  
+           -webkit-animation-name: zoom;
+           -webkit-animation-duration: 0.6s;
+           animation-name: zoom;
+           animation-duration: 0.6s;
+         }
+         
+         @-webkit-keyframes zoom {
+           from {-webkit-transform:scale(0)} 
+           to {-webkit-transform:scale(1)}
+         }
+         
+         @keyframes zoom {
+           from {transform:scale(0)} 
+           to {transform:scale(1)}
+         }
+         
+         /* The Close Button */
+         .close {
+           position: absolute;
+           top: 15px;
+           right: 35px;
+           color: #f1f1f1;
+           font-size: 40px;
+           font-weight: bold;
+           transition: 0.3s;
+         }
+         
+         .close:hover,
+         .close:focus {
+           color: #bbb;
+           text-decoration: none;
+           cursor: pointer;
+         }
+         
+         /* 100% Image Width on Smaller Screens */
+         @media only screen and (max-width: 700px){
+           .modal-content {
+             width: 100%;
+           }
+         }
+      </style>
+
+
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -46,7 +141,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.jpg" style="border-radius: 100px;" alt="#" /></a>
+                              <a href="index.html"><img src="icon/ic_epoch_full.png" style="border-radius: 100px;" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -87,13 +182,13 @@
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="#">Home</a>
+                                 <a class="nav-link" href="index.html">Home</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#">About</a>
+                                 <a class="nav-link" href="#about">About</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#">Our Product</a>
+                                 <a class="nav-link" href="#glasses">Our Product</a>
                               </li>
                            </ul>
                         </div>
@@ -121,18 +216,7 @@
                            <!-- <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1> -->
                            <!-- <figure><img src="images/banner_img.png" alt="#"/></figure> -->
                            <figure><img src="images/IMG_8957_tanpa bg-1.png" style="height: 450px;" alt="#"/></figure>
-                           <a class="read_more" href="#">Shop Now</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="text-bg">
-                           <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Shop Now</a>
+                           <a class="read_more" href="http://shopee.co.id/epochprojectt" target="_blank">Shop Now</a>
                         </div>
                      </div>
                   </div>
@@ -141,13 +225,13 @@
                   <div class="container">
                      <div class="carousel-caption">
                         <div class="text-bg">
-                           <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1>
-                           <figure><img src="images/banner_img.png" alt="#"/></figure>
-                           <a class="read_more" href="#">Shop Now</a>
+                           <!-- <h1> <span class="blu">Welcome <br></span>To Our Sunglasses</h1> -->
+                           <figure><img src="images/banner3.png" style="height: 450px;" alt="#"/></figure>
+                           <a class="read_more" href="http://shopee.co.id/epochprojectt" target="_blank">Shop Now</a>
                         </div>
                      </div>
                   </div>
-               </div> -->
+               </div>
             </div>
             <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
             <i class="fa fa-arrow-left" aria-hidden="true"></i>
@@ -172,22 +256,22 @@
                      <h2>About Our Shop</h2>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
                   </div>
-                  <a class="read_more" href="#">Read More</a>
+                  <!-- <a class="read_more" href="#">Read More</a> -->
                </div>
             </div>
          </div>
       </div>
       <!-- about section -->
       <!-- Our  Glasses section -->
-      <div class="glasses">
+      <div class="glasses" id="glasses">
          <div class="container">
             <div class="row">
                <div class="col-md-10 offset-md-1">
                   <div class="titlepage">
-                     <h2>Our Shirt</h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor
+                     <h2>Our Product</h2>
+                     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor
                         e et dolore magna aliqua. Ut enim ad minim veniam, qui
-                     </p>
+                     </p> -->
                   </div>
                </div>
             </div>
@@ -196,69 +280,97 @@
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/1.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg" src="images/img_1.png" alt="Shirt 1"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>HELIOS</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/2.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg2" src="images/img_2.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>LYRA</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/3.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg3" src="images/img_3.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 120.000</h3>
+                     <p>SHORT CARGO PANTS</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/4.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg4" src="images/img_4.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 75.000</h3>
+                     <p>SLING BAG EPOCH</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/5.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg5" src="images/img_5.jpg" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>SEA OF SPACE</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/6.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg6" src="images/img_6.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 75.000</h3>
+                     <p>SLING BAG EPOCH</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/7.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg7" src="images/img_7.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 75.000</h3>
+                     <p>HAND BAG EPOCH</p>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
                   <div class="glasses_box">
-                     <figure><img src="images/8.png" alt="#"/></figure>
-                     <h3><span class="blu">$</span>50</h3>
-                     <p>T-Shirt</p>
+                     <figure><img id="myImg8" src="images/img_8.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>MEDUSA</p>
                   </div>
                </div>
-               <div class="col-md-12">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img id="myImg9" src="images/img_9.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>BACKAPACK EPOCH</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img id="myImg10" src="images/img_10.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>FORGIVE</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img id="myImg11" src="images/img_11.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 150.000</h3>
+                     <p>SATANIC</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img id="myImg12" src="images/img_12.png" alt="Shirt"/></figure>
+                     <h3><span class="blu">Rp.</span> 75.000</h3>
+                     <p>SLING BAG EPOCH</p>
+                  </div>
+               </div>
+               <!-- <div class="col-md-12">
                   <a class="read_more" href="#">Read More</a>
-               </div>
+               </div> -->
             </div>
          </div>
       </div>
       <!-- end Our  Glasses section -->
       <!-- Our shop section -->
-      <div id="about" class="shop">
+      <div id="about" class="shop" style="display: none;">
          <div class="container-fluid">
             <div class="row">
                <div class="col-md-5">
@@ -271,7 +383,7 @@
                      <div class="titlepage">
                         <h2>Best Quality</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                        <a class="read_more" href="#">Shop Now</a>
+                        <a class="read_more" href="http://shopee.co.id/epochprojectt" target="_blank">Shop Now</a>
                      </div>
                   </div>
                </div>
@@ -358,7 +470,7 @@
       </div>
       <!-- end clients section -->
       <!-- contact section -->
-      <div id="contact" class="contact">
+      <!-- <div id="contact" class="contact">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
@@ -393,8 +505,11 @@
                </div>
             </div>
          </div>
+      </div> -->
+
       </div>
-      </div>
+      <br>
+      <br>
       <!-- end contact section -->
       <!--  footer -->
       <footer>
@@ -422,6 +537,17 @@
          </div>
       </footer>
       <!-- end footer -->
+
+
+      <!-- modal preview image -->
+      <div id="myModal" class="modal">
+         <span class="close">&times;</span>
+         <img class="modal-content" id="img01">
+         <div id="caption"></div>
+      </div>
+      <!-- end modal preview image -->
+
+
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
@@ -435,13 +561,13 @@
          // Australia.
          function initMap() {
            var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 11,
-             center: {lat: 40.645037, lng: -73.880224},
+             zoom: 16,
+             center: {lat: -6.874612, lng: 107.560244},
              });
          
          var image = 'images/maps-and-flags.png';
          var beachMarker = new google.maps.Marker({
-             position: {lat: 40.645037, lng: -73.880224},
+             position: {lat: -6.874612, lng: 107.560244},
              map: map,
              icon: image
            });
@@ -450,6 +576,103 @@
       <!-- google map js -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js --> 
+
+      <!-- preview image js -->
+      <script>
+         // Get the modal
+         var modal = document.getElementById("myModal");
+         
+         // Get the image and insert it inside the modal - use its "alt" text as a caption
+         var img = document.getElementById("myImg");
+         var img2 = document.getElementById("myImg2");
+         var img3 = document.getElementById("myImg3");
+         var img4 = document.getElementById("myImg4");
+         var img5 = document.getElementById("myImg5");
+         var img6 = document.getElementById("myImg6");
+         var img7 = document.getElementById("myImg7");
+         var img8 = document.getElementById("myImg8");
+         var img9 = document.getElementById("myImg9");
+         var img10 = document.getElementById("myImg10");
+         var img11 = document.getElementById("myImg11");
+         var img12 = document.getElementById("myImg12");
+
+         var modalImg = document.getElementById("img01");
+         var captionText = document.getElementById("caption");
+         img.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img2.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img3.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img4.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img5.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img6.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img7.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img8.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img9.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img10.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img11.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         img12.onclick = function(){
+           modal.style.display = "block";
+           modalImg.src = this.src;
+           captionText.innerHTML = this.alt;
+         }
+         
+         // Get the <span> element that closes the modal
+         var span = document.getElementsByClassName("close")[0];
+         
+         // When the user clicks on <span> (x), close the modal
+         span.onclick = function() { 
+           modal.style.display = "none";
+         }
+
+         // When the user clicks on myModal, close the modal
+         modal.onclick = function() { 
+           modal.style.display = "none";
+         }
+      </script>
+      <!-- end preview image js -->
    </body>
 </html>
 
